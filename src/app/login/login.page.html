@@ -1,0 +1,48 @@
+<ion-header>
+  <!-- <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content>
+  <ion-card>
+     <form >
+       <div class="btn">
+       
+          <button  class="headerBtn" id="register" (click)="register()">{{'register' | translate}}</button>
+          <button class="headerBtn" id="login" (click)="login()">{{'login' | translate}}</button>
+       </div>
+
+       <div *ngIf="loginStatus">
+
+          <ion-input type="email" placeholder="Email"></ion-input>
+          <ion-input type="password" placeholder="password"></ion-input> 
+
+            <label>{{'forget password' | translate}}!</label>
+           
+          <button class="login">{{'login' | translate}}</button>
+
+      </div>
+
+      <div *ngIf="!loginStatus">
+
+        <ion-input type="number" placeholder="Phone number"></ion-input>
+        <ion-input type="email" placeholder="Email"></ion-input>
+        <ion-input type="password" placeholder="Password"></ion-input> 
+
+          <label class="registerLabel">
+            {{'you agree' | translate}}
+            <br>
+          </label>
+          <label >
+            {{'to terms' | translate}}<br>
+          </label>
+          
+        <button class="login register">{{'register' | translate}}</button>
+
+    </div>
+     </form>
+    
+
+  </ion-card>
+</ion-content>

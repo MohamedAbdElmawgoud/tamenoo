@@ -1,0 +1,107 @@
+ion-toolbar,ion-content{
+    --background: #0d70b4;
+    height: 50px;
+}
+ion-icon{
+    color: white;
+}
+.imgHeader{
+  width: 70%;
+  height: 45px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.btnHeader{
+    margin-top: -2%;
+    width: 75%;
+    background: white;
+    border-bottom-left-radius: 20px;
+}
+h1{
+    color: #348ed2;
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+}
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+.radioVehicle{
+    float: left;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 15px;
+    margin-left: 5%
+}
+
+.radio{
+    margin-bottom: 3%;
+    margin-right: 5%;
+    margin-left: 5%
+}
+.labelRadio{
+    margin-right: 5%;
+}
+.divInput{
+    margin: 5%;
+    color: black
+}
+.divMarginInput{
+    margin-left: 10%;
+}
+.labelCheckBpx{
+    margin-right: 5%;
+    margin-left: 2%
+}
+  ion-card{
+      width: 90%;
+      margin: 5%;
+    //   height: 300px;
+      border-radius: 10px !important;
+     // margin-top: 50%;
+  }
+  ion-input ,ion-datetime{
+      
+      border-radius: 10px !important;
+      
+    //  padding-left: 30px !important;
+      padding-right: 30px;
+      font-size: 0.9em;
+      border: 1px solid #2482c4;
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-bottom: 10px;
+      height: 10%;
+      width: 90%;
+      margin-top: 2%;
+      flex:none;
+  }
+  .label{
+      text-align: center;
+      width: 40%;
+      margin-left: 5%;
+      color: black;
+     // margin-right: 30%;
+     font-style: initial;
+     font-size: small;
+  }
+  .login{
+      background: #2482c4;
+      color: #fff4ea;
+      width: 50%;
+      padding: 10px;
+      margin: 5%;
+      margin-left: 25%;
+      margin-right: 25%;
+    
+      border-radius: 5px;
+      font-size: small;
+      text-transform: uppercase;
+      
+      
+  }
+  

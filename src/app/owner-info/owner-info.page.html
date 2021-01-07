@@ -1,0 +1,74 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-menu-button slot="start">
+        <ion-icon name="menu"></ion-icon>
+      </ion-menu-button>
+      <button class="btnHeader" slot="end">
+            <img class="imgHeader" src="assets/logo.png">
+          </button>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-card>
+      <h1>{{'Document owner information' | translate}}</h1>
+      <form>
+ 
+  
+  
+            <div style="color: black !important;"> 
+                <h2>{{'Marital Status' | translate}}*</h2>
+                <input class="radio" type="radio" id="single" name="Status" value="single">
+                <label class="labelRadio"for="single">{{'Single' | translate}}</label>
+                <input class="radio" type="radio" id="married" name="Status" value="married">
+                <label class="labelRadio"for="married">{{'Married' | translate}}</label><br>
+      
+              </div>
+  
+        
+  
+  
+        <label class="label">
+           {{'Name' | translate}}
+        </label>
+        <ion-input type="text" placeholder="Name">
+  
+        </ion-input>
+  
+        <label class="label">
+            {{'profession' | translate}}* 
+        </label>
+  
+        <ion-input type="number" placeholder="Choose Profession"></ion-input>
+  
+  <div class="divInput">
+        <input type="checkbox" id="composite" name="composite" value="composite">
+        <label class= "labelCheckBpx" for="composite"> {{'Is owner of the composite document' | translate}}</label><br>
+  </div>
+        <label class="label">
+            {{'Diving ratio of the vehicle' | translate}}* 
+        </label>
+        <ion-input type="text" placeholder="All time (100%)"></ion-input>
+  
+       
+        <label class="label">
+           {{'Diving License Type' | translate}}* 
+        </label>
+        <ion-input type="text" placeholder="Choose License Type"></ion-input>
+  
+        <div class="divInput">
+            <input type="checkbox" id="driver" name="driver" value="driver">
+            <label class= "labelCheckBpx"for="driver">  {{'add an extra driver' | translate}}</label>
+
+            <input type="checkbox" id="traffic" name="traffic" value="traffic">
+            <label class= "labelCheckBpx" for="traffic">  {{'traffic violations' | translate}}</label><br>
+<br>
+
+            <input type="checkbox" id="health" name="health" value="composite">
+            <label class= "labelCheckBpx" for="health"> {{'health condtions or restrictions' | translate}}</label><br>
+      </div>
+        <button class="login">{{'continue' | translate}}</button>
+  
+      </form>
+    </ion-card>
+  </ion-content>

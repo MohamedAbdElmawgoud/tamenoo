@@ -1,0 +1,116 @@
+<ion-header>
+  <ion-toolbar>
+     
+    <ion-menu-button slot="start">
+      <ion-icon name="menu"></ion-icon>
+    </ion-menu-button>
+    <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <button class="btnHeader" slot="end">
+          <img class="imgHeader" src="assets/logo.png">
+        </button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <h1>vehicle information</h1>
+    <form>
+      <div class="flex">
+
+
+          <div>
+              <h2>purpose of insurance*</h2>
+              <input class="radio" type="radio" id="Tameen" name="purpose" value="Tameen">
+              <label for="tasgel">تامين جديد</label><br>
+              <input class="radio" type="radio" id="melkaya" name="purpose" value="melkaya">
+              <label for="gomrok">نقل ملكيه</label><br>
+    
+            </div>
+
+        <div class="radioVehicle">
+          <h2>vehicle document type*</h2>
+          <input class="radio" type="radio" id="tasgel" name="type" value="tasgel">
+          <label for="tasgel">بطاقه التسجيل (رخصه)</label><br>
+          <input class="radio" type="radio" id="gomrok" name="type" value="gomrok">
+          <label for="gomrok">البطاقه الجمركيه</label>
+        </div>
+
+       
+      </div>
+
+      <label class="label">
+          vehicle Number* 
+      </label>
+      <ion-input type="number" placeholder="Type the number">
+
+      </ion-input>
+
+      <label class="label">
+          Engine Number* 
+      </label>
+
+      <ion-input type="number" placeholder="Enter engine number"></ion-input>
+
+
+
+
+      <label class="label">
+          vehicle value* 
+      </label>
+      <ion-input type="text" placeholder="Enter Vhicle Value"></ion-input>
+
+     
+
+      <label class="label">
+          Engine type* 
+      </label>
+      <ion-input type="text" placeholder="choose engine type"></ion-input>
+
+      <label class="label">
+          Transmissin type* 
+      </label>
+      <ion-input type="text" placeholder="choose the transmissin type"></ion-input>
+
+
+      <label class="label">
+        purpose of use* 
+      </label>
+      <ion-input type="text" placeholder="choose purpose of use"></ion-input>
+
+
+
+      <label class="label">
+          vehicle brand* 
+      </label>
+      <ion-input type="text" placeholder="select vehicle brand"></ion-input>
+
+
+
+      <label class="label">
+          model* 
+      </label>
+      <ion-input type="text" placeholder="select model"></ion-input>
+
+
+
+      <label class="label">
+        Year of Manufacture* 
+      </label>
+      <ion-input type="text" placeholder="choose Year of Manufacture"></ion-input>
+
+
+
+      <label class="label">
+       Repair type*
+      </label>
+      <ion-input type="text" placeholder="select repair type"></ion-input>
+
+
+
+      <button class="login" (click)="ownerinfo()">Document owner information</button>
+
+    </form>
+  </ion-card>
+</ion-content>

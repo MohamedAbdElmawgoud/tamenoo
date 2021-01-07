@@ -1,0 +1,23 @@
+{
+    "Add additional driver":"Add additional driver",
+    "Type":"Type",
+    "male":"male",
+    "female":"female",
+    "Single":"Single",
+    "Married":"Married",
+    "Driver name":"Driver name",
+    "Driver ID":"Driver ID",
+    "profession":"profession",
+    "Diving ratio of the  vehicle":"Diving ratio of the  vehicle",
+    "choose license type":"choose license type",
+    "number of years of license":"number of years of license",
+    "number of accidents":"number of accidents",
+    "i guarantee":"i guarantee the drivers relationship with owenr of the document",
+    " has health":"Does the driver has health condtions or restrictions on the license",
+    "Artificail limbs":"Artificail limbs",
+    "license to strengthen the eyes":"license to strengthen the eyes",
+    "has traffic violations":"Does the driver has traffic violations",
+    "continue":"continue",
+    "country":"country",
+    "Document owner information":""
+}

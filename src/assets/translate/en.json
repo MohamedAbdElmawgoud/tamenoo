@@ -1,0 +1,81 @@
+{
+    "Add additional driver":"Add additional driver",
+    "Type":"Type",
+    "male":"male",
+    "female":"female",
+    "Single":"Single",
+    "Married":"Married",
+    "Driver name":"Driver name",
+    "Driver ID":"Driver ID",
+    "profession":"profession",
+    "Diving ratio of the vehicle":"Diving ratio of the  vehicle",
+    "choose license type":"choose license type",
+    "number of years of license":"number of years of license",
+    "number of accidents":"number of accidents",
+    "i guarantee":"i guarantee the drivers relationship with owenr of the document",
+    "has health":"Does the driver has health condtions or restrictions on the license",
+    "Artificail limbs":"Artificail limbs",
+    "license to strengthen the eyes":"license to strengthen the eyes",
+    "has traffic violations":"Does the driver has traffic violations",
+    "continue":"continue",
+    "country":"country",  
+    
+        
+    "Document owner information":"Document owner information",
+    "Document owner identity":"Document owner identity",
+    "Name":"Name",
+    "national address":"national address",
+    "phone number":"phone number",
+    "Vehicle information":"Vehicle information",
+    "choose No":"choose No",
+    "vehicle brand":"vehicle brand",
+    "plate number":"plate number",
+    "Year of Manufacture":"Year of Manufacture",                        
+    "The Islamic Insurance co":"The Islamic Insurance co",
+    "secure with":"secure with",
+    "anti other":"anti other",
+    "Document issued Date":"Document issued Date",
+    "Document started Date":"Document started Date",
+    "Document End Date":"Document End Date",
+    "Refrance Number":"Refrance Number",
+    "Insurance Type":"Insurance Type",
+    "Document Price":"Document Price",
+    "Premium Subsription":"Premium Subsription",
+
+
+    "document id":"document id", 
+
+
+    "comprehensive Insurance":"comprehensive Insurance",
+    "compuisory Insurance":"compuisory Insurance",
+    "Birthday":"Birthday",
+    "Start now":"Start now",
+
+
+
+    "forget password":"forget password",
+    "login":"login",
+    "you agree":"By clicking on registeration you agree",
+    "to terms":"to terms and condtions",
+    "register":"register",
+
+
+    //                 
+    "Marital Status":"Marital Status",
+    "Is owner of the composite document":"Is owner of the composite document",
+    "Diving License Type":"Diving License Type",
+    "add an extra driver":"add an extra driver",
+    "traffic violations":"traffic violations",
+    "health condtions or restrictions":"health condtions or restrictions",
+
+
+
+    "Payment Method":"Payment Method",
+    "Cardholder name":"Cardholder name",
+    "card number":"card number",
+    "Code":"Code",
+    "Push":"Push",
+    "End date":"End date"
+}
+
+       

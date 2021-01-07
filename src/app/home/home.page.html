@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-menu-button slot="start">
+      <ion-icon name="menu"></ion-icon>
+    </ion-menu-button>
+    <button class="btnHeader" slot="end">
+      <img class="imgHeader" src="assets/logo.png">
+    </button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- slider for category and products and sale -->
+
+  <ion-slides autoHeight="false" pager="true" autoplay="5000" loop="true" speed="300" [options]="slideOpts">
+    <!-- pager for specific number of slide by points -->
+
+
+
+
+    <ion-slide>
+      <img class="slide" src="assets/JOFICO.jpg">
+
+    </ion-slide>
+
+    <ion-slide>
+      <img class="slide" src="assets/JOFICO.jpg">
+
+    </ion-slide>
+
+    <ion-slide>
+      <img class="slide" src="assets/JOFICO.jpg">
+
+    </ion-slide>
+
+
+  </ion-slides>
+  <!-- end slide -->
+
+  <ion-card> 
+    <form>
+      <div >
+          <label class="comprehensiveInsurance" id="login" (click)="login()">{{'comprehensive Insurance' | translate}}</label>
+           <label  class="compuisoryInsurance" id="register" (click)="register()">{{'compuisory Insurance' | translate}}  </label>
+          
+        </div>
+      <ion-input type="number" placeholder="ID/Company number*">
+      
+      </ion-input>
+      <ion-datetime type="text" placeholder="Document Start date*"></ion-datetime>
+      <label class="label">
+      <strong>  {{'Birthday' | translate}}* </strong>
+      </label>
+      <ion-datetime type="text" placeholder="Select Birthday *"></ion-datetime>
+
+
+
+      <button class="login register"(click)="vhicleinfo()" >{{'Start now' | translate}}</button>
+
+    </form>
+  </ion-card>
+</ion-content>

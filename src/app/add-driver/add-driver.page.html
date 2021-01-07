@@ -1,0 +1,131 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-menu-button slot="start">
+      <ion-icon name="menu"></ion-icon>
+    </ion-menu-button>
+    <button class="btnHeader" slot="end">
+              <img class="imgHeader" src="assets/logo.png">
+            </button>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-card> 
+    <h1>{{'Add additional driver'| translate}}</h1> 
+    <form>
+      <div style="color: black !important;">
+
+
+        <h2 style="margin-right: 3%;">{{'Type'| translate}}* </h2>
+        <input class="radio" type="radio" id="male" name="type" value="male">
+        <label class="labelRadio" for="male">male</label>
+        <input class="radio" type="radio" id="female" name="type" value="female">
+        <label class="labelRadio" for="female">female</label><br>
+
+        <h2>Marital Status*</h2>
+        <input class="radio" type="radio" id="single" name="Status" value="single">
+        <label class="labelRadio" for="single">Single</label>
+        <input class="radio" type="radio" id="married" name="Status" value="married">
+        <label class="labelRadio" for="married">Married</label><br>
+      </div>
+
+
+      <label class="label">
+                   {{' Driver name'| translate}}*
+                 </label>
+      <ion-input type="text" placeholder="Name">
+
+      </ion-input>
+
+
+      <label class="label">
+                    {{'Driver ID' | translate}}*
+                 </label>
+      <ion-input type="text" placeholder="type the driver ID number">
+
+      </ion-input>
+
+
+      <label class="label">  
+                    {{'profession' | translate}}*
+                 </label>
+      <ion-input type="text" placeholder="Choose profession">
+
+      </ion-input>
+
+
+
+      <label class="label">
+                    {{'Diving ratio of the vehicle' | translate}}*
+                 </label>
+      <ion-input type="text" placeholder="choose the driver percentage ratio*">
+
+      </ion-input>
+
+
+      <label class="label">
+                    {{'choose license type' | translate}}*
+                 </label>
+      <ion-input type="text" placeholder="choose driver license type">
+
+      </ion-input>
+
+      <label class="label">
+                   {{'number of years of license' | translate}}*
+                 </label>
+      <ion-input type="number" placeholder="1">
+
+      </ion-input>
+
+
+
+      <label class="label">
+                    {{'number of accidents' | translate}}*
+                 </label>
+      <ion-input type="number" placeholder="choose the number">
+
+      </ion-input>
+
+      <div class="divInput">
+        <input type="checkbox" id="numberOfAccident" name="numberOfAccident" value="2">
+        <label class="labelCheckBpx" for="numberOfAccident"> {{ 'i guarantee'| translate}}*</label><br>
+      </div>
+
+
+
+      <ion-input type="text" placeholder="choose relative relation"> </ion-input>
+
+      <div class="divInput">
+        <input type="checkbox" id="health" name="health" value="health">
+        <label class="labelCheckBpx" for="health">{{'has health' | translate}}</label><br>
+      </div>
+
+
+      <div class="divInput divMarginInput">
+        <input type="checkbox" id="limbs" name="limbs" value="limbs" onclick="onToggle()">
+        <label class="labelCheckBpx" for="limbs"> Artificail limbs</label><br>
+      </div>
+      <div class="divInput divMarginInput">
+        <input type="checkbox" id="eyes" name="eyes" value="eyes" onclick="onToggle()">
+        <label class="labelCheckBpx" for="eyes"> license to strengthen the eyes</label><br>
+      </div>
+
+
+      <div class="divInput">
+        <input type="checkbox" id="violations" name="violations" value="violations">
+        <label class="labelCheckBpx" for="violations">Does the driver has traffic violations</label><br>
+      </div>
+
+
+      <label class="label">
+                    country*
+                 </label>
+      <ion-input type="text" placeholder="choose Country">
+
+      </ion-input> 
+
+      <button class="submit">continue</button>
+    </form>
+  </ion-card>
+
+</ion-content>

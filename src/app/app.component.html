@@ -1,0 +1,51 @@
+<ion-app dir={{textDir}}>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <ion-list>
+
+          <ion-item lines="none" (click)="goToAbout()">
+            <ion-icon name="refresh"></ion-icon>
+            history 
+          </ion-item>
+          <ion-item lines="none"  (click)="goToHistory()">
+            <ion-icon name="information-circle-outline"></ion-icon>
+            about
+          </ion-item>
+
+        
+          <ion-item (click)="goToContanct()" lines="none">
+            <ion-icon name="chatbubbles-outline"></ion-icon>
+
+            contact Us
+          </ion-item>
+
+          <ion-item lines="none"  (click)="goToPolicy()">
+            <ion-icon name="list-outline"></ion-icon>
+              policy
+          </ion-item>
+
+          <ion-item lines="none">
+            <ion-icon name="paper-plane-outline"></ion-icon>
+            share
+          </ion-item>
+
+          <ion-label> Communicate</ion-label>
+          <ion-item lines="none">
+            <ion-icon name="star"></ion-icon>
+            rate
+          </ion-item>
+
+          <ion-item  (click)="logout()">
+            <ion-icon name="log-out"></ion-icon>
+
+            log out
+          </ion-item>
+
+
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-menu-button slot="start">
+      <ion-icon name="menu"></ion-icon>
+    </ion-menu-button>
+    <button class="btnHeader" slot="end">
+          <img class="imgHeader" src="assets/logo.png">
+        </button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <h1>traffic violations</h1>
+    <form>
+      <div class="divInput">
+        <input type="checkbox" id="health" name="health" value="health" >
+        <label class="labelCheckBpx" for="health"> Does the driver has health condtions or restrictions on the license</label><br>
+      </div>
+
+
+        <div class="divInput divMarginInput">
+          <input type="checkbox" id="limbs" name="limbs" value="limbs" onclick="onToggle()">
+          <label class="labelCheckBpx" for="limbs"> Artificail limbs</label><br>
+        </div>
+        <div class="divInput divMarginInput">
+          <input type="checkbox" id="eyes" name="eyes" value="eyes"onclick="onToggle()">
+          <label class="labelCheckBpx" for="eyes"> license to strengthen the eyes</label><br>
+        </div>
+
+
+      <div class="divInput">
+        <input type="checkbox" id="violations" name="violations" value="violations">
+        <label class="labelCheckBpx" for="violations">Does the driver has traffic violations</label><br>
+      </div>
+
+      <label class="label">
+        years of license*
+     </label>
+     <ion-input type="number" placeholder="1"> </ion-input>
+
+
+      <div style="color: black !important;"> 
+        <h2>place the vehicle off at night*</h2>
+        <input class="radio" type="radio" id="single" name="Status" value="single">
+        <label class="labelRadio"for="single">public garage</label><br>
+        <input class="radio"  type="radio" id="married" name="Status" value="married">
+        <label class="labelRadio"for="married">private garage</label><br>
+        <input  class="radio" type="radio" id="married" name="Status" value="married">
+        <label class="labelRadio"for="married">Font House</label><br>
+
+      </div>
+
+
+      <div style="color: black !important;"> 
+        <h2>Are there any modifications to vehicle?*</h2>
+        <input class="radio" type="radio" id="single" name="Status" value="single">
+        <label class="labelRadio"for="single">Yes</label>
+        <input class="radio" type="radio" id="married" name="Status" value="married">
+        <label class="labelRadio"for="married">No</label><br>
+
+      </div>
+
+
+      <label class="label">
+        Expected mileage traveled each year*
+     </label>
+     <ion-input type="number" placeholder="over 30.000"> </ion-input>
+
+     <button class="login">continue</button>
+
+    </form>
+  </ion-card>
+</ion-content>

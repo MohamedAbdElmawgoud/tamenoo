@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-menu-button slot="start">
+      <ion-icon name="menu"></ion-icon>
+    </ion-menu-button>
+    <button class="btnHeader" slot="end">
+                <img class="imgHeader" src="assets/logo.png">
+              </button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-title>
+      <h2>{{'Payment Method' | translate}}</h2>
+    </ion-card-title>
+
+  </ion-card>
+  <div>
+    <img class="visaImage" src="assets/master.png">
+
+    <img class="visaImage" src="assets/Visa.png">
+    <div class="divRadio">
+
+      <input class="radio" type="radio" id="master" name="Status" value="master">
+      <span class="checkmark"></span>
+      <input style="margin-left:30% !important" class="radio" type="radio" id="visa" name="Status" value="visa">
+      <span class="checkmark"></span>
+
+    </div>
+  </div>
+  <form>
+    <label class="label">
+            {{'Cardholder name' | translate}}
+         </label>
+    <ion-input type="text" placeholder="Cardholder name">
+
+    </ion-input>
+
+
+    <label class="label">
+            {{'card number' | translate}}
+         </label>
+    <ion-input type="number" placeholder="card number">
+
+    </ion-input>
+
+
+    <label class="label">
+            {{'Code' | translate}}
+         </label>
+    <ion-input type="number" placeholder="Code">
+
+    </ion-input>
+    
+
+     <label class="label">
+            {{'End date' | translate}}
+         </label>
+         <br>
+    <ion-input  class="endDate"type="number" placeholder="MM">
+
+    </ion-input>
+    <label style="font-size: 25px" class="label">
+        /
+     </label>
+    <ion-input class="endDate" type="number" placeholder="YY">
+        
+            </ion-input>
+    <button class="submit">{{'Push' | translate}}</button>
+
+  </form>
+</ion-content>

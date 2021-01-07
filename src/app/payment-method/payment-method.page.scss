@@ -1,0 +1,112 @@
+ion-toolbar,ion-content{
+    --background: #0d70b4;
+    height: 50px;
+}
+ion-icon{
+    color: white;
+}
+
+.imgHeader{
+    width: 70%;
+    height: 45px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .btnHeader{
+      margin-top: -2%;
+      width: 75%;
+      background: white;
+      border-bottom-left-radius: 20px;
+  }
+
+  h2{
+   padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+    font-size: 18px;
+    font-style: bold;
+    color: #247bb9;
+    text-align: center
+
+}
+
+  ion-card{
+      width: 90%;
+      margin: 5%;
+    //   height: 300px;
+      border-radius: 10px !important;
+     // margin-top: 50%;
+  }
+  
+.visaImage{
+    width: 25%;
+    margin: 11%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+
+.radio ,input[type=radio]:checked{
+    margin-top: 0;
+    margin: 15%;
+    background-color: black;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+}
+ 
+.divRadio{
+    margin-top: -10%;
+    
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.label{
+    text-align: center;
+    width: 40%;
+    margin-left: 5%;
+    color: white;
+   // margin-right: 30%;
+   font-style: initial;
+   font-size: small;
+}
+
+ion-input{
+    border-radius: 10px !important;
+    background: white;
+    padding-right: 30px;
+    font-size: 0.9em;
+    border: 1px solid #2482c4;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    height: 8%;
+    width: 90%;
+    margin-top: 2%;
+   // flex:none;
+}
+
+.endDate{
+    
+    display: inline-flex;
+    width: 15%;
+    margin-right: 0;
+    
+}
+.submit{
+    background: #fff4ea;
+    color: #2482c4;
+    width: 40%;
+    padding: 12px;
+    margin: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-style: bold;
+    border-radius: 5px;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
+
